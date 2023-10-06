@@ -17,7 +17,7 @@ O presente projeto é um CRUD de produtos, desenvolvido em HTML, CSS e JS, com o
 
 ```bash
 # clonar o repositório
-git clone
+git clone https://github.com/alexmontanha/crud-produto.git
 # entrar na pasta do projeto
 cd crud-produtos
 # executar o arquivo index.html

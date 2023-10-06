@@ -12,11 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 conteudoDiv.innerHTML = data;
                 
                 if (pagina === 'listar_produtos.html') {
+
+                    const Adicionado = Object.values('conteudo')
                     // Simula uma lista de produtos (você pode substituir isso com dados reais do servidor)
                     const produtos = [
                         { id: 1, nome: 'Produto 1', descricao: 'Descrição do Produto 1', preco: 10.99, quantidade: 100 },
                         { id: 2, nome: 'Produto 2', descricao: 'Descrição do Produto 2', preco: 20.99, quantidade: 50 },
-                        { id: 3, nome: 'Produto 3', descricao: 'Descrição do Produto 3', preco: 15.99, quantidade: 75 }
+                        { id: 3, nome: 'Produto 3', descricao: 'Descrição do Produto 3', preco: 15.99, quantidade: 75 },
+                        {Adicionado}
+
                     ];
 
                     // Exibe a lista de produtos
